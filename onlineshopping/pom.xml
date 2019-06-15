@@ -11,6 +11,7 @@
 
 	<properties>
 		<javaee-version>7.0</javaee-version>
+		<sping.version>5.1.5.RELEASE</sping.version>
 	</properties>
 
 	<dependencies>
@@ -29,6 +30,14 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- spring dependency -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${sping.version}</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
