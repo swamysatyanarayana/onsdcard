@@ -29,7 +29,7 @@ public class PageConroller {
 	@RequestMapping(value= "/contact")
 	public ModelAndView contact() {
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("title", "contact Us");
+		mv.addObject("title", "Contact Us");
 		mv.addObject("userClickContact", true);
 		return mv;
 	}
