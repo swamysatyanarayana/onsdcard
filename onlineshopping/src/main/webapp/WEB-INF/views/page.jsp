@@ -27,7 +27,7 @@
 
 <!-- Add custom CSS here -->
 <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
-
+<%-- <link href="${css}/bootstrapnew.min.css" rel="stylesheet"> --%>
 </head>
 
 <body>

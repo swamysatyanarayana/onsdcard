@@ -15,6 +15,12 @@
 	</properties>
 
 	<dependencies>
+<!-- 		link backed project -->
+		<dependency>
+			<groupId>net.kcm</groupId>
+			<artifactId>shappingbacked</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- java ee -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -37,7 +43,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${sping.version}</version>
 		</dependency>
-		
+
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
