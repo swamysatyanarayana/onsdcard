@@ -25,7 +25,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 		
 		//adding second category
 		category = new Category();
-		category.setId(1);
+		category.setId(2);
 		category.setName("Mobile");
 		category.setDescription("This is som desc for mobile");
 		category.setImageUrl("CAT_2.png");
@@ -33,7 +33,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 		
 		//adding thried category
 		category = new Category();
-		category.setId(1);
+		category.setId(3);
 		category.setName("Laptop");
 		category.setDescription("This is som desc for laptop");
 		category.setImageUrl("CAT_3.png");
@@ -43,6 +43,15 @@ public class CategoryDAOImpl implements CategoryDAO {
 	public List<Category> list() {
 		// TODO Auto-generated method stub
 		return categories;
+	}
+	@Override
+	public Category get(int id) {
+		// TODO Auto-generated method stub
+		// enchanced for loop
+		for (Category category : categories) {
+			if(category.getId() == id) return category;
+		}
+		return null;
 	}
 
 }
