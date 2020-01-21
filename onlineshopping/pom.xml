@@ -11,7 +11,7 @@
 
 	<properties>
 		<javaee-version>7.0</javaee-version>
-		<sping.version>5.1.5.RELEASE</sping.version>
+		<sping.version>5.2.0.RELEASE</sping.version>
 	</properties>
 
 	<dependencies>
